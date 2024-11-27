@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class GitHubSoftAssertionsJUnit5 {
+public class GitHubSoftAssertionsTest {
 
     @BeforeAll
     static void beforeAll() {
