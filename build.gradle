@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'antilles.toss'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation (
+            "com.codeborne:selenide:7.6.0",
+            "org.junit.jupiter:junit-jupiter:5.11.3"
+    )
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+test {
+    useJUnitPlatform()
+}

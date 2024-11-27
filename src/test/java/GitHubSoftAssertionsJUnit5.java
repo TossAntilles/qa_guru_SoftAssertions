@@ -1,0 +1,2 @@
+public class GitHubSoftAssertionsJUnit5 {
+}
