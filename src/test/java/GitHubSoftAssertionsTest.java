@@ -20,7 +20,7 @@ public class GitHubSoftAssertionsTest {
     void gitHubSoftAssertionsLinkFullList() {
 
         // Opening Selenide wiki page
-        open(""); //remove
+        open("");
         $("#wiki-tab").click();
 
         // Search by expanding link list
@@ -36,7 +36,7 @@ public class GitHubSoftAssertionsTest {
     void gitHubSoftAssertionsLinkAfterSearcht() {
 
         // Opening Selenide wiki page
-        open(""); //remove
+        open("");
         $("#wiki-tab").click();
 
         // Search by filtering link list
